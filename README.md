@@ -48,11 +48,11 @@
 * 插件选项: tls;host=应用程序名.herokuapp.com;path=/自定义UUID码-ss
 
 
-# CloudFlare Workers反代代码（支持VLESS\VMESS\Trojan-Go的WS模式）
+# CloudFlare Workers反代代码（支持VLESS\VMESS\Trojan-Go的WS模式，如可分别用两个账号的应用程序名，单双号天分别执行，那一个月就有550+550小时）
 
 ```
-const SingleDay = '应用程序名.herokuapp.com'
-const DoubleDay = '应用程序名.herokuapp.com'
+const SingleDay = '应用程序名1.herokuapp.com'
+const DoubleDay = '应用程序名2.herokuapp.com'
 addEventListener(
     "fetch",event => {
     
